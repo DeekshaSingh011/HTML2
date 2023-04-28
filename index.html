@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="./result.html" method="get" >
+        <label >Name :<input type="text" name="Name" id="Name" placeholder="Name" required></label><br><br>
+        <label>Email: <input type="email" name="Email" id="email" placeholder="Enter Email" required></label><br><br>
+        <label for="pwd">Password:<input type="password" id="pwd" name="pwd"></label><br><BR>
+        <label>Language:<br>
+            <input type="radio" name="lang" value="React" required>
+            React<br>
+            <input type="radio" name="lang" value="Angular" required>
+            Angular<br>
+            <input type="radio" name="lang" value="Vue" required>
+            Vue<br><br>
+        </label>
+        <br>
+        <label> Course:<br>
+            <input type="checkbox" name="mern" value="MERN">
+            MERN<br>
+            <input type="checkbox" name="mean" value="MEAN">
+            MEAN<br>
+            <input type="checkbox" name="mevn" value="MEVN">
+            MEVN<br>
+        </label>
+        <br>
+        <label>Field:
+            <select name="Batch Number" required>
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="FullEnd">FullEnd</option></select>
+        </label>
+        <br><br>
+        <textarea name="rndomtext" rows="4" cols="50" ></textarea><br>
+        <label>Phone Number : <input type="tel" name="PhoneNumber"  placeholder="Enter Phone Number" required ></label>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Tables</h1><br>
+    <a href="./index2.html"> Click here </a>
+</body>
+</html>
